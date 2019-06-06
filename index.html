@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trivia Game</title>
+    <script src="assets/javascript/jQuery.js"></script>
     <script src="assets/javascript/app.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -14,46 +15,107 @@
 
 <body>
     <div id="container">
-        <h1>The Office Trivia</h1>
-        <div class= "qRows">
-            <input class=row1 type="checkbox">
-            <input class=row1 type="checkbox">
-            <input class=row1 type="checkbox">
+        <div id="header">
+            <h1>The Office Trivia</h1>
         </div>
-        <div class= "qRows">
-            <input class=row2 type="checkbox">
-            <input class=row2 type="checkbox">
-            <input class=row2 type="checkbox">
+        <div id="content">
+            <div class="qRows">
+
+                <h3>What is Michael Scott's middle name?</h3>
+
+
+
+                <input isCorrect="no" class=row1 type="checkbox">
+                <input isCorrect="no" class=row1 type="checkbox">
+                <input isCorrect="yes" class=row1 type="checkbox">
+                <div class="answers">
+                    <p>Gregg</p>
+                    <p>Kurt</p>
+                    <p>Gary</p>
+
+                </div>
+            </div>
+            <div class="qRows">
+                <h3>What county in Pennsylvania is Dunder Mifflin Scranton branch located?</h3>
+                <input isCorrect="yes" class=row2 type="checkbox">
+                <input isCorrect="no" class=row2 type="checkbox">
+                <input isCorrect="no" class=row2 type="checkbox">
+                <div class="answers">
+                    <p>Lackawanna</p>
+                    <p>Lancaster</p>
+                    <p>Luzerne</p>
+
+                </div>
+            </div>
+            <div class="qRows">
+                <h3> What is the web address of Creed's blog?</h3>
+                <input isCorrect="yes" class=row3 type="checkbox">
+                <input isCorrect="no" class=row3 type="checkbox">
+                <input isCorrect="no" class=row3 type="checkbox">
+                <div class="answers">
+                    <p>www.creedthoughts.gov.www/creedthoughts</p>
+                    <p>www.creedthoughts.com.creedthoughts.gov</p>
+                    <p>www.creedsthoughts.edu/creedthoughts</p>
+
+                </div>
+            </div>
+            <div class="qRows">
+                <h3>What is the exclusive club that Pam, Oscar, and Toby establish in the episode "Branch Wars"?</h3>
+                <input isCorrect="no" class=row4 type="checkbox">
+                <input isCorrect="yes" class=row4 type="checkbox">
+                <input isCorrect="no" class=row4 type="checkbox">
+                <div class="answers">
+                    <p>The Club of Elite Pranking</p>
+                    <p>The Finer Things Club</p>
+                    <p>The Party Planning Comittee 2.0</p>
+
+                </div>
+            </div>
+            <div class="qRows">
+                <h3>Where did Michael get his "World's Best Boss" mug?</h3>
+                <input isCorrect="no" class=row5 type="checkbox">
+                <input isCorrect="no" class=row5 type="checkbox">
+                <input isCorrect="yes" class=row5 type="checkbox">
+                <div class="answers">
+                    <p>Target</p>
+                    <p>Scranton Surplus</p>
+                    <p>Spencer's</p>
+
+                </div>
+            </div>
+            <div class="qRows">
+                <h3>How Long was The Wire that Jim used to Prank Dwight?</h3>
+                <input isCorrect="no" class=row6 type="checkbox">
+                <input isCorrect="yes" class=row6 type="checkbox">
+                <input isCorrect="no" class=row6 type="checkbox">
+                <div class="answers">
+                    <p>300ft</p>
+                    <p>500ft</p>
+                    <p>100ft</p>
+
+                </div>
+            </div>
+            <div class=submitRow>
+                <img id="needsWork" src="assets/images/needsWork.gif">
+                <button id= "submit">
+                    Submit Now
+                </button>
+                <button id = reset>
+                    Reset!
+                </button>
+                <img id="winner" src ="assets/images/giphy.gif">
+
+
+            </div>
+            
+
+
+
+
+
+
+
         </div>
-        <div class= "qRows">
-            <input class=row3 type="checkbox">
-            <input class=row3 type="checkbox">
-            <input class=row3 type="checkbox">
-        </div>
-        <div class= "qRows">
-            <input class=row4 type="checkbox">
-            <input class=row4 type="checkbox">
-            <input class=row4 type="checkbox">
-        </div>
-        <div class= "qRows">
-            <input class=row4 type="checkbox">
-            <input class=row4 type="checkbox">
-            <input class=row4 type="checkbox">
-        </div>
-        <div class= "qRows">
-            <input class=row1 type="checkbox">
-            <input class=row1 type="checkbox">
-            <input class=row1 type="checkbox">
-        </div>
-
-
-
-
-
-
-
-
-    </div>
 
 
 
